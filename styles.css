@@ -1,3 +1,58 @@
-h1 {
-    color: green;
+body {
+    margin: 0;
+    background-color: rgb(161, 187, 218);
 }
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(189, 59, 102);
+    color: white;
+}
+
+#navigation {
+    position: fixed;
+	top: 0;
+	left: 0;
+	width: 80%;
+	justify-content: space-between;
+	transition: 1.6s;
+    background-color: rgb(189, 59, 102);
+    border-radius: 3.5em;
+    border-color: burlywood;
+    border-style: solid;
+    border-width: 5px;
+    margin-left: 130px;
+}
+
+#navigation ul {
+    position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#navigation ul li {
+    position: relative;
+	list-style: none;
+}
+
+#navigation ul li a {
+    position: relative;
+	margin: 85px;
+	text-decoration: none;
+	color: #fff;
+	letter-spacing: 2px;
+    font-size: 1.1em;
+
+}
+
+.main {
+    margin-top: 160px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+
+
+
