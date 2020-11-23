@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: rgb(161, 187, 218);
+    background-color: #FFABAB;
 }
 
 footer {
@@ -51,6 +51,14 @@ footer {
     margin-top: 160px;
     margin-left: 300px;
     margin-right: 300px;
+    margin-bottom: 60px;
+}
+
+#video {
+    width: 70%;
+    height: 60%;
+    background-color: rgb(189, 59, 102);
+    margin: auto;
 }
 
 
